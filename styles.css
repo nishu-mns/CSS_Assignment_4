@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+.image1 {
+    border: 2px solid black;
+    overflow: hidden;
+    height: 236px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.image2 {
+    border: 2px solid black;
+    height: 260px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.image2>img {
+    height: 230px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.image3 {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.image3>img {
+    width: 500px;
+    height: 300px;
+    margin: auto 250px;
+}
